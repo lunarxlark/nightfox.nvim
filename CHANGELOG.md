@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/EdenEast/nightfox.nvim/compare/v3.0.0...v3.1.0) (2023-01-06)
+
+
+### Features
+
+* **color:** add WCAG AA contrast validation ([12e0ca7](https://github.com/EdenEast/nightfox.nvim/commit/12e0ca70e978f58318e7f0279bb7b243ababbd49))
+
 ## [3.0.0](https://github.com/EdenEast/nightfox.nvim/compare/v2.1.0...v3.0.0) (2023-01-05)
 
 
