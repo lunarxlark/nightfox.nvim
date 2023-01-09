@@ -8,30 +8,6 @@ local meta = {
 
 -- stylua: ignore
 local palette = {
-  -- black   = Shade.new("#393b44", 0.15, -0.15),
-  -- red     = Shade.new("#c94f6d", 0.15, -0.15),
-  -- green   = Shade.new("#81b29a", 0.10, -0.15),
-  -- yellow  = Shade.new("#dbc074", 0.15, -0.15),
-  -- blue    = Shade.new("#719cd6", 0.15, -0.15),
-  -- magenta = Shade.new("#9d79d6", 0.30, -0.15),
-  -- cyan    = Shade.new("#63cdcf", 0.15, -0.15),
-  -- white   = Shade.new("#dfdfe0", 0.15, -0.15),
-  -- orange  = Shade.new("#f4a261", 0.15, -0.15),
-  -- pink    = Shade.new("#d67ad2", 0.15, -0.15),
-
-  -- gruvbox
-  -- black   = Shade.new("#282828", 0.15, -0.15),
-  -- red     = Shade.new("#cc241d", 0.15, -0.15),
-  -- green   = Shade.new("#98971a", 0.10, -0.15),
-  -- yellow  = Shade.new("#d79921", 0.15, -0.15),
-  -- blue    = Shade.new("#458588", 0.15, -0.15),
-  -- magenta = Shade.new("#b16286", 0.30, -0.15),
-  -- cyan    = Shade.new("#689d6a", 0.15, -0.15),
-  -- white   = Shade.new("#fbf1c7", 0.15, -0.15),
-  -- orange  = Shade.new("#d65d0e", 0.15, -0.15),
-  -- pink    = Shade.new("#d3869b", 0.15, -0.15),
-
-  -- black   = Shade.new("#282828", 0.15, -0.15),
   black   = Shade.new("#282828", 0.15, -0.15),
   red     = Shade.new("#fb4934", 0.15, -0.15),
   green   = Shade.new("#b8bb26", 0.10, -0.15),
