@@ -49,7 +49,7 @@ If you want to stay on nvim 0.7, disable the module, or pin to commit 15f3b5837a
     ["@method.call"]            = { link = "@method" }, -- method calls
 
     ["@constructor"]            = { fg = syn.ident }, -- For constructor calls and definitions: = { } in Lua, and Java constructors.
-    ["@parameter"]              = { fg = syn.builtin1, stl.variables }, -- For parameters of a function.
+    ["@parameter"]              = { fg = syn.fg1, stl.variables }, -- For parameters of a function.
 
     -- Keywords
     ["@keyword"]                = { link = "Keyword" }, -- For keywords that don't fall in previous categories.
