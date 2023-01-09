@@ -9,7 +9,7 @@ function M.get(spec, config)
   return {
     Comment        = { fg = syn.comment, style = stl.comments }, -- any comment
     Constant       = { fg = syn.const, style = stl.constants }, -- (preferred) any constant
-    String         = { fg = syn.string, style = stl.strings }, -- a string constant: "this is a string"
+    String         = { fg = syn.string, style = "italic" }, -- a string constant: "this is a string"
     Character      = { link = "String" }, -- a character constant: 'c', '\n'
     Number         = { fg = syn.number, style = stl.numbers }, -- a number constant: 234, 0xff
     Float          = { link = "Number" }, -- a floating point constant: 2.3e10

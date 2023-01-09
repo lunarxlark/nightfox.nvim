@@ -1,0 +1,31 @@
+# Nightfox Alacritty Colors
+# Style: gruvfox
+# Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/gruvfox/nightfox_alacritty.yml
+colors:
+  # Default colors
+  primary:
+    background: '0x282828'
+    foreground: '0xebdbb2'
+  # Normal colors
+  normal:
+    black:   '0x282828'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xfbf1c7'
+  # Bright colors
+  bright:
+    black:   '0x484848'
+    red:     '0xfc6452'
+    green:   '0xbfc23c'
+    yellow:  '0xfbc74e'
+    blue:    '0x96b3a7'
+    magenta: '0xe0aab9'
+    cyan:    '0x9fc990'
+    white:   '0xfcf3cf'
+  indexed_colors:
+    - { index: 16, color: '0xfe8019' }
+    - { index: 17, color: '0xd3869b' }
