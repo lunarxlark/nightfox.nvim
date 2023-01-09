@@ -13,7 +13,7 @@ local palette = {
   green   = Shade.new("#b8bb26", 0.10, -0.15),
   yellow  = Shade.new("#fabd2f", 0.15, -0.15),
   blue    = Shade.new("#83a598", 0.15, -0.15),
-  magenta = Shade.new("#d3869b", 0.30, -0.15),
+  magenta = Shade.new("#b16286", 0.30, -0.15),
   cyan    = Shade.new("#8ec07c", 0.15, -0.15),
   white   = Shade.new("#fbf1c7", 0.15, -0.15),
   orange  = Shade.new("#fe8019", 0.15, -0.15),
@@ -21,7 +21,7 @@ local palette = {
 
   comment = "#928374",
 
-  bg0     = "#1d2021", -- Dark bg (status line and float)
+  bg0     = "#32302f", -- Dark bg (status line and float)
   bg1     = "#282828", -- Default bg
   bg2     = "#3c3836", -- Lighter bg (colorcolm folds)
   bg3     = "#504945", -- Lighter bg (cursor line)
@@ -57,8 +57,8 @@ local function generate_spec(pal)
   spec.syntax = {
     bracket     = pal.orange.base,           -- Brackets and Punctuation
     builtin0    = pal.red.base,       -- Builtin variable
-    builtin1    = pal.cyan.bright,    -- Builtin type
-    builtin2    = pal.orange.bright,  -- Builtin const
+    builtin1    = pal.yellow.bright,  -- Builtin type
+    builtin2    = pal.yellow.bright,  -- Builtin const
     builtin3    = pal.red.bright,     -- Not used
     comment     = pal.comment,        -- Comment
     conditional = pal.magenta.bright, -- Conditional and loop
@@ -73,7 +73,7 @@ local function generate_spec(pal)
     preproc     = pal.cyan.bright,    -- PreProc
     regex       = pal.yellow.bright,  -- Regex
     statement   = pal.magenta.base,   -- Statements
-    string      = pal.blue.base,     -- Strings
+    string      = pal.green.base,     -- Strings
     type        = pal.yellow.base,    -- Types
     variable    = pal.white.base,     -- Variables
   }
