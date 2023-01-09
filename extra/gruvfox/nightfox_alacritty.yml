@@ -13,7 +13,7 @@ colors:
     green:   '0xb8bb26'
     yellow:  '0xfabd2f'
     blue:    '0x83a598'
-    magenta: '0xd3869b'
+    magenta: '0xb16286'
     cyan:    '0x8ec07c'
     white:   '0xfbf1c7'
   # Bright colors
@@ -23,7 +23,7 @@ colors:
     green:   '0xbfc23c'
     yellow:  '0xfbc74e'
     blue:    '0x96b3a7'
-    magenta: '0xe0aab9'
+    magenta: '0xc891aa'
     cyan:    '0x9fc990'
     white:   '0xfcf3cf'
   indexed_colors:

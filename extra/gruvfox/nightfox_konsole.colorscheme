@@ -2,7 +2,7 @@
 Color=40,40,40
 
 [BackgroundFaint]
-Color=29,32,33
+Color=50,48,47
 
 [BackgroundIntense]
 Color=80,73,69
@@ -53,13 +53,13 @@ Color=111,140,129
 Color=150,179,167
 
 [Color5]
-Color=211,134,155
+Color=177,98,134
 
 [Color5Faint]
-Color=179,114,132
+Color=150,83,114
 
 [Color5Intense]
-Color=224,170,185
+Color=200,145,170
 
 [Color6]
 Color=142,192,124
