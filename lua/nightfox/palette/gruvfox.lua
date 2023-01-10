@@ -32,8 +32,8 @@ local palette = {
   fg2     = "#d5c4a1", -- Darker fg (status line)
   fg3     = "#bdae93", -- Darker fg (line numbers, fold colums)
 
-  sel0    = "#32302f", -- Popup bg, visual selection bg
-  sel1    = "#3c5372", -- Popup sel bg, search bg
+  sel0    = "#504945", -- Popup bg, visual selection bg
+  sel1    = "#1d2021", -- Popup sel bg, search bg
 }
 
 local function generate_spec(pal)
